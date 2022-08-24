@@ -1,0 +1,16 @@
+/* navbar */
+.image{
+    width: 15%;
+}
+.image-2{
+    width: 15%;
+    margin-left: auto;
+}
+#items:hover{
+    color: rgb(196, 8, 8);
+    border-bottom: 2px solid rgb(196, 8, 8);
+    
+}
+
+/* header background  */
+
