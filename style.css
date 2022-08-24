@@ -12,5 +12,48 @@
     
 }
 
-/* header background  */
+/* Main Section*/
+.title{
+    font-family: 'Josefin Sans', sans-serif;
+    width: 41%;
+    margin: auto;
+    border-bottom: 3px solid rgb(196, 8, 8);
+    border-width: 50%;
+    font-weight: 700;
+}
+
+.paragraph{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+
+.para{
+    margin-top: 3%;
+    margin-left: 10%;
+    width: 50%;
+    text-align: justify;
+}
+.paragraph img{
+    width: 30%;
+    margin-left: 8%;
+}
+
+@media (max-width: 768px){
+    .paragraph{
+        display: flex;
+        flex-direction: column;
+    }
+    .title{
+        width: 80%;
+        font-size: 30px;
+        text-align: center;
+    }
+    .para{
+        width: 90%;
+        margin:20px auto;
+    }
+    .paragraph img{
+        width: auto;
+    }
+}
 
