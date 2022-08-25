@@ -42,6 +42,10 @@
 .paragraph{
     font-family: 'Roboto', sans-serif;
     display: flex;
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-size: 9%;
+    background-position: left;
 }
 
 .para{
@@ -56,12 +60,14 @@
 }
 
 
+
 /* Mobile Responsive  */
 
 @media (max-width: 768px){
     .paragraph{
         display: flex;
         flex-direction: column;
+        background-position: top left;
     }
     .title{
         width: 80%;
