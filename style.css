@@ -55,6 +55,7 @@
     margin-left: 8%;
 }
 
+
 /* Mobile Responsive  */
 
 @media (max-width: 768px){
@@ -88,13 +89,22 @@
         font-size: 20px;
         text-align: center;
     }
+    #items{
+        display: flex;
+        flex-direction: column;
+        margin-left: 35%;
+        width: 100%;
+    }
+    .logo{
+        width: 100%;
+    }
 }
 
 /* sponsor Section  */
 
 .sponsor-title{
     font-family: 'Josefin Sans', sans-serif;
-    width: 29%;
+    width: 23%;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -102,7 +112,31 @@
     border-width: 50%;
     font-weight: 700;
 }
-
+#logos{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.logo:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-out;
+}
+.logo2:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-out;
+}
+.logo3:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-out;
+}
+.logo{
+    width: 70%;
+}
+.logo2{
+    width: 70%;
+}
+.logo3{
+    width: 80%;
+}
 /* Footer Section  */
 
 .footer{
