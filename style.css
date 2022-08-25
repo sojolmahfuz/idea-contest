@@ -85,6 +85,19 @@
     }
 }
 
+/* sponsor Section  */
+
+.sponsor-title{
+    font-family: 'Josefin Sans', sans-serif;
+    width: 29%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid rgb(196, 8, 8);
+    border-width: 50%;
+    font-weight: 700;
+}
+
 /* Footer Section  */
 
 .footer{
