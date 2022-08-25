@@ -8,7 +8,7 @@
 }
 #items:hover{
     color: rgb(196, 8, 8);
-    border-bottom: 2px solid rgb(196, 8, 8);
+   
     
 }
 .button{
@@ -109,24 +109,24 @@
 }
 .logo:hover{
     transform: scale(1.1);
-    transition: 0.5s ease-out;
+    transition: 0.5s ease-in-out;
 }
 .logo2:hover{
     transform: scale(1.1);
-    transition: 0.5s ease-out;
+    transition: 0.5s ease-in-out;
 }
 .logo3:hover{
     transform: scale(1.1);
-    transition: 0.5s ease-out;
+    transition: 0.5s ease-in-out;
 }
 .logo{
     width: 30%;
 }
 .logo2{
-    width: 70%;
+    width: 65%;
 }
 .logo3{
-    width: 80%;
+    width: 100%;
 }
 /* Footer Section  */
 
