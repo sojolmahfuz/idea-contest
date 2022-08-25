@@ -83,6 +83,11 @@
     .image-2{
         width: 30%;
     }
+    .sponsor-title{
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+    }
 }
 
 /* sponsor Section  */
