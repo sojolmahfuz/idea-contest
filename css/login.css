@@ -1,0 +1,108 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #899bf5;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+h1{
+  text-align: center;
+  margin: auto;
+  padding-top: 50px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+p{
+  text-align: center;
+  margin: auto;
+  padding-top: 20px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  width: 350px;
+}
+
+.wave{
+  background-color: rgb(134, 18, 18);
+  height: 150px;
+}
+
+/* svg{
+  position: absolute;
+  z-index: -1;
+} */
+
+.container .login{
+  background-color: #dcdfe1;
+  height: 30em;
+  width: 28em;
+  border-radius: 5px;
+  text-align: center;
+}
+.login-panel{
+  display: flex;
+}
+.login-panel img{
+  width: 60%;
+  margin-left: 10%;
+}
+
+.draft{
+  border-top: 1px solid #eaedef;
+  width: 28em;
+}
+
+h2{
+  color: #726e6e;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.inputfield{
+  transition: box-shadow 0.15s ease-in-out;
+  font-family: "Open Sans", sans-serif;
+  color: #8898aa;
+  box-shadow: 1px 1px 3px #7777;
+  width: 24em;
+  height: 3.2em;
+  padding-left: 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff
+}
+
+.inputfield:focus{
+  box-shadow: 1px 1px 6px #7777;
+}
+
+.button{
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 1px 1px 3px #7777;
+  width: 14em;
+  height: 3em;
+  background-color: #FB373C;
+  border: none;
+  border-radius: 5px;
+}
+
+.button:hover{
+  margin-top:-1px;
+}
+
+i{
+  position: absolute;
+  padding-top: 0.87em;
+  padding-left: 10px;
+  color: #adb5bd;
+}
+footer{
+  margin-top: 10%;
+}
