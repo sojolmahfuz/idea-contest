@@ -1,0 +1,44 @@
+.participate-title{
+    font-family: 'Josefin Sans', sans-serif;
+    width: 28%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid rgb(196, 8, 8);
+    font-weight: 700;
+}
+.main-para{
+    font-size: 25px;
+    width: 70%;
+    text-align: justify;
+    margin-left: 20px;
+}
+.flex{
+    display: flex;
+}
+.flex img{
+    width: 45%;
+    height: 40%;
+    margin-left: 7%;
+}
+.inno-items{
+    margin-bottom: 5%;
+}
+.innovator{
+    margin-left: 30%;
+    margin-bottom: 3%;
+    width: 50%;
+    text-align: justify;
+    background-color: #fcbbbb;
+    color: rgb(38, 37, 37);
+    padding: 20px;
+    border-radius: 20px;
+}
+.innovator-2{
+    margin-left: 30%;
+    width: 50%;
+    text-align: justify;
+    background-color: #b5d9f7;
+    padding: 20px;
+    border-radius: 20px;
+}
