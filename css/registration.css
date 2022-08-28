@@ -1,0 +1,30 @@
+.card{
+    width: 30%;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    
+}
+.card img{
+    width: 100%;
+}
+.card h4{
+    font-size: 15px;
+}
+.card span{
+    color: red;
+}
+.reg2-button{
+    font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 1px 1px 3px #7777;
+  width: 14em;
+  height: 3em;
+  background-color: #FB373C;
+  border: none;
+  border-radius: 5px;
+}
