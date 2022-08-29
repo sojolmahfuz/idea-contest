@@ -1,0 +1,55 @@
+.scope-title{
+    font-family: 'Josefin Sans', sans-serif;
+    width: 39%;
+    margin: auto;
+    border-bottom: 3px solid rgb(196, 8, 8);
+    border-width: 50%;
+    font-weight: 700;
+}
+.scope-para{
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.scope-para2{
+    width: 50%;
+    margin-left: 10%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.scope-items{
+    margin-left: 10%;
+    display: flex;
+}
+.scope-items img{
+    width: 50%;
+    height: 30%;
+    margin-left: 10%;
+}
+.scope-items ol{
+    text-decoration: underline;
+}
+@media (max-width: 768px){
+    .scope-title{
+        width: 90%;
+    }
+    .scope-para{
+        width: 90%;
+        text-align: justify;
+        margin-top: 5%;
+    }
+    .scope-items{
+        display: flex;
+        flex-direction: column;
+    }
+    .scope-items img{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .scope-para2{
+        width: 90%;
+    }
+}
