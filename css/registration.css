@@ -28,3 +28,10 @@
   border: none;
   border-radius: 5px;
 }
+
+@media (max-width: 768px){
+    .card{
+        width: auto;
+        margin-left: 0;
+    }
+}
