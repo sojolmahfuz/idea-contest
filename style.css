@@ -33,6 +33,12 @@
     color: white;
     border: 2px solid rgb(53, 69, 190);
     font-weight: 600;
+    transition: all 0.5s ease;
+}
+.login-button:hover{
+    color: rgb(53, 69, 190);
+    background-color: antiquewhite;
+    border: 2px solid antiquewhite;
 }
 
 .button-2{
