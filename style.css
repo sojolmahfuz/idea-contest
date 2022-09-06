@@ -6,10 +6,11 @@
     width: 15%;
     margin-left: auto;
 }
+#items{
+    transition: all 0.5s ease;
+}
 #items:hover{
-    color: rgb(196, 8, 8);
-   
-    
+    color: rgb(196, 8, 8);  
 }
 .reg-button{
     padding: 10px;

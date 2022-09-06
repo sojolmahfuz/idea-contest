@@ -28,8 +28,15 @@
     height: 30%;
     margin-left: 10%;
 }
-.scope-items ol{
-    text-decoration: underline;
+.scope-items li{
+    transition: all 0.5s ease;
+}
+.scope-items li:hover{
+    transform: scale(1.1);
+    color: rgb(196, 8, 8);
+    background-color: bisque;
+    padding: 5px;
+    border-radius: 10px;
 }
 @media (max-width: 768px){
     .scope-title{
