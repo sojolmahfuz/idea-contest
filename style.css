@@ -18,6 +18,12 @@
     color: white;
     border: 2px solid rgb(196, 8, 8);
     font-weight: 600;
+    transition: all 0.5s ease;
+}
+.reg-button:hover{
+    color: red;
+    background-color: antiquewhite;
+    border: 2px solid antiquewhite;
 }
 .login-button{
     margin-left: 10px;
@@ -37,6 +43,12 @@
     color: white;
     border: 2px solid rgb(196, 8, 8);
     font-weight: 600;
+    transition: all 0.5s ease;
+}
+.button-2:hover{
+    color: red;
+    background-color: antiquewhite;
+    border: 2px solid antiquewhite;
 }
 /* Main Section*/
 .title{
@@ -132,16 +144,27 @@
 }
 .logo3:hover{
     transform: scale(1.1);
-    transition: 0.5s ease-in-out;
+    transition: all 0.5s ease;
+}
+.logo4:hover{
+    transform: scale(1.1);
 }
 .logo{
-    width: 30%;
+    width: 70%;
+    transition: all 0.5s ease;
 }
 .logo2{
     width: 65%;
+    transition: all 0.5s ease;
 }
 .logo3{
     width: 100%;
+    transition: all 0.5s ease;
+}
+.logo4{
+    width: 60%;
+    margin-top: 10%;
+    transition: all 0.5s ease;
 }
 /* Footer Section  */
 
