@@ -96,6 +96,21 @@
 .details .box:nth-child(4):before,
 .details .box:nth-child(4):after
 {
+  background: linear-gradient(315deg,  #4dff03, #00d0ff)
+}
+.details .box:nth-child(5):before,
+.details .box:nth-child(5):after
+{
+  background: linear-gradient(315deg,  #03a9f4, #ff0058)
+}
+.details .box:nth-child(6):before,
+.details .box:nth-child(6):after
+{
+  background: linear-gradient(315deg,  #ffbc00, #ff0058)
+}
+.details .box:nth-child(7):before,
+.details .box:nth-child(7):after
+{
   background: linear-gradient(315deg,  #ffbc00, #ff0058)
 }
 .details .box span
@@ -233,7 +248,15 @@
   box-shadow: 0 1px 15px rgba(1, 1, 1, 0.2);
 }
 .title-org{
-    width: 28%;
+    width: 25%;
+    margin: auto;
+    margin-top: 5%;
+    border-bottom: 3px solid rgb(196, 8, 8);
+    border-width: 20%;
+    font-weight: 700;
+}
+.title-exc{
+    width: 18%;
     margin: auto;
     margin-top: 5%;
     border-bottom: 3px solid rgb(196, 8, 8);
