@@ -91,6 +91,11 @@
     transform: scale(1.1);
 }
 
+.animation{
+    animation-name: backInDown;
+    animation-duration: 2s;
+}
+
 
 /* Mobile Responsive  */
 
